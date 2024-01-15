@@ -165,6 +165,7 @@ section {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
+    font-size: 2rem;
 }
 
 .first-row,
@@ -242,6 +243,34 @@ section {
     font-size: 1.1rem;
     color: #424247;
     font-weight: 300;
+    line-height: 26px;
+}
+
+/* perfect section start  */
+.Perfect-section{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.Perfect-section-content h3{
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.Perfect-section-content p{
+    padding-top: 1rem;
+    font-size: 1rem;
+    color: #131318d2;
+    line-height: 26px;
+}
+.Perfect-section-content ul{
+    margin-left: 1.2rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+    color: #131318;
+    font-weight: 600;
     line-height: 26px;
 }
 
