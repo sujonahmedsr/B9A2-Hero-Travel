@@ -8,11 +8,6 @@
     }
     nav .navbar{
         display: none;
-        position: absolute;
-        top: 6rem;
-        right: 4rem;
-    }.active{
-        display: block;
     }
     nav .navbar li{
         margin-top: 1rem;
@@ -21,6 +16,17 @@
         display: block;
         font-size: 2rem;
         cursor: pointer;
+    }
+    .hero-banner{
+        height: 90vh;
+    }
+    .banner-describe form{
+        flex-direction: column;
+        padding-top: 1rem;
+    }
+    .banner-describe form input, .banner-describe form select, .btn{
+        width: 100%;
+        margin-top: 1rem;
     }
     main{
         padding: 2rem 2rem;
