@@ -1,2 +1,356 @@
 /* font family mulish import  */
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+:root {
+    --primaryColor: #FF5400;
+    --secondColor: #424247;
+    --black: #131318;
+}
+
+/* navbar css  */
+header {
+    padding: 0 7rem;
+}
+
+nav .webName {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+nav .webName img {
+    margin-right: .8rem;
+}
+
+nav .webName h3 {
+    color: var(--black);
+    font-size: 2.25rem;
+    font-weight: 800;
+    text-shadow: 0 4px 4px #00000041;
+}
+
+nav .webName h3 span {
+    color: var(--primaryColor);
+}
+
+nav {
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .navbar {
+    display: flex;
+}
+
+nav .navbar li {
+    display: flex;
+    list-style: none;
+}
+
+nav .navbar li .colorActive {
+    color: var(--primaryColor);
+    font-weight: 700;
+}
+
+nav .navbar li a {
+    margin-left: 2rem;
+    color: var(--secondColor);
+    font-size: 1.15rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.fa-bars {
+    display: none;
+}
+
+/* banner section start  */
+
+
+/* main section start here  */
+main {
+    padding: 2rem 7rem;
+}
+
+section {
+    margin-top: 5rem;
+}
+
+.popular-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.popular-section img {
+    width: 100%;
+}
+
+.popular-section-content h3 {
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.popular-section-content li {
+    margin-left: 1.2rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+    color: #131318d2;
+    line-height: 26px;
+}
+
+.popular-section-content p {
+    padding-top: 1rem;
+    font-size: 1rem;
+    color: #131318d2;
+    line-height: 26px;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    border: none;
+    outline: none;
+    font-size: 1.15rem;
+    color: #fff;
+    background-color: var(--primaryColor);
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 2rem 0;
+}
+
+.destination-des {
+    text-align: center;
+}
+
+.destination-des h3 {
+    font-size: 2.8rem;
+    color: var(--black);
+    font-weight: 800;
+}
+
+.destination-des p {
+    color: #131318d2;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 1rem 0;
+}
+
+.img-describe .img {
+    position: relative;
+}
+
+.img img {
+    width: 100%;
+}
+
+.img-country {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.first-row,
+.second-row,
+.third-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.choose-us{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.choosing{
+    padding: 1rem 2rem;
+    border: 1px solid #FF5400;
+    border-radius: 1rem;
+}
+.choosing img{
+    margin: 1rem 0;
+}
+.choosing h3{
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--black);
+}
+.choosing p{
+    color: var(--secondColor);
+    font-size: 1.15rem;
+    line-height: 26px;
+}
+
+.middle{
+    width: 60%;
+    margin: 2rem auto;
+}
+
+/* easy section start here  */
+.easy-heading h3{
+    text-align: center;
+    font-size: 2.8rem;
+    color: var(--black);
+    font-weight: 800;
+}
+.easy-section{
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    gap: 2rem;
+}
+.easy-section .div{
+    padding: 1rem;
+    border: 1px solid #00000041;
+    border-radius: 8px;
+}
+.easy-section .div i{
+    padding-top: 1rem;
+    font-size: 2rem;
+    color: #FF5400;
+}
+.easy-section .div h3{
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    color: #131318;
+    font-weight: 700;
+}
+.easy-section .div p{
+    font-size: 1.1rem;
+    color: #424247;
+    font-weight: 300;
+    line-height: 26px;
+}
+
+
+/* newsletter section start here  */
+.Newsletter-section{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.Newsletter{
+    border: 1px solid #FF5400;
+    border-radius: 16px;
+    padding: 2rem;
+}
+.Newsletter form{
+    display: flex;
+    flex-direction: column;
+}
+.Newsletter h3{
+    font-size: 1.8rem;
+    color: var(--black);
+    font-weight: 700;
+}
+.Newsletter p{
+    font-size: 1rem;
+    color: var(--secondColor);
+    font-weight: 300;
+    line-height: 26px;
+    padding: 1rem 0;
+    border-bottom: 1px solid #13131831;
+}
+.Newsletter form input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #13131831;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    font-size: 1.15rem;
+}
+
+.newsletter-img{
+    position: relative;
+}
+
+.newsletter-discount{
+    position: absolute;
+    bottom: 5rem;
+    right: 1rem;
+    transform: rotate(-30deg);
+    padding: 2rem 2.5rem;
+    border-radius: 1rem;
+    text-align: center;
+    color: white;
+    background-color: var(--primaryColor);
+}
+.newsletter-discount  p{
+    font-size: 1.5rem;
+    padding-bottom: .5rem;
+    font-weight: 300;
+}
+
+.newsletter-discount  h3{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+
+/* footer section start here  */
+footer{
+    padding: 5rem 7rem;
+    text-align: center;
+}
+footer .webName {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+footer .webName img {
+    margin-right: .8rem;
+}
+
+footer .webName h3 {
+    color: var(--black);
+    font-size: 2.25rem;
+    font-weight: 800;
+    text-shadow: 0 4px 4px #00000041;
+}
+
+footer .webName h3 span {
+    color: var(--primaryColor);
+}
+
+.foo-p{
+    padding: 2rem 0;
+    color: var(--secondColor);
+    font-weight: 400;
+    font-size: 1.15rem;
+}
+
+.icons i{
+    font-size: 2rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+hr{
+    border: 1px solid #13131831;
+    margin: 2rem 0;
+}
